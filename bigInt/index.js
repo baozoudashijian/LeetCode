@@ -11,8 +11,6 @@ function calculateNumber(strA, strB) {
         
         let addNumber = parseInt(numberA) + parseInt(numberB)
         
-        
-
         if(fullTen) {
             addNumber += 1
         }
@@ -34,4 +32,4 @@ function calculateNumber(strA, strB) {
     return result
 }
 
-calculateNumber('12345678901234567', '98765432109876543')
+calculateNumber('11111111101234567', '77777777707654321')
