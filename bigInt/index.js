@@ -22,7 +22,7 @@ function calculateNumber(strA, strB) {
             fullTen = false
         }
         console.log(numberA, numberB, addNumber, 'addNumber')
-        result += addNumber
+        result = addNumber + result
     }
     if(fullTen) {
         result += 1
